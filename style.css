@@ -1,0 +1,41 @@
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+
+#content>div{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 4px solid black;
+  padding: 15px;
+  margin: 10px;
+}
+
+.into-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.into-content>div{
+  width: 32%;
+  padding: 100px 0;
+  border: 1px dashed black;
+}
+
+.dynamic-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dynamic-content>div{
+  width: 49%;
+  padding: 100px 0;
+  border: 1px dashed black;
+}
